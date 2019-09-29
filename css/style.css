@@ -26,7 +26,7 @@ section {
 .header {
   height: 100%;
   width: 100%;
-  background-image: url("https://images.pexels.com/photos/167703/pexels-photo-167703.jpeg?cs=srgb&dl=bizuteria-dlugopis-karta-167703.jpg&fm=jpg");
+  background-image: url("https://images.pexels.com/photos/2842457/pexels-photo-2842457.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -65,10 +65,7 @@ section {
   text-decoration: none;
   display: inline-block;
   padding-left: 30px;
-}
-
-a {
-  color: #ffff;
+  color: white;
 }
 
 /* Splash */
@@ -99,7 +96,7 @@ a {
   text-align: center;
 }
 
-.btn {
+.button {
   display: inline-block;
   max-width: 160px;
   margin: 24px auto 0 auto;
@@ -111,9 +108,6 @@ a {
   cursor: pointer;
   background-position: 100% 0;
   background-size: 300%;
-}
-
-.btn-one {
   color: #ffff;
   background-color: #f1c40f;
   font-weight: bold;
