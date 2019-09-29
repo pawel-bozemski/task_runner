@@ -103,3 +103,24 @@ section {
     background-color: #f1c40f;
     font-weight: bold;
 }
+
+/* dadada */
+
+.card {
+    text-decoration: none;
+    font-size: 0;
+    text-align: center;
+    i {
+        font-size: 30px;
+        background: orange;
+        width: 60px;
+        height: 60px;
+        color: $color-light;
+        border-radius: 50%;
+        text-align: center;
+        margin-top: 48px;
+        margin-bottom: 48px;
+        line-height: 2;
+        margin-right: 50px;
+    }
+  }
