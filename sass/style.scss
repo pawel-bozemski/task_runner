@@ -104,23 +104,44 @@ section {
     font-weight: bold;
 }
 
-/* dadada */
-
-.card {
-    text-decoration: none;
-    font-size: 0;
+/* Cards */
+.row{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.row-title {
+  text-align: center;
+  font-size: 42px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+.row-subtitle {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 150;
+}
+.cards {
     text-align: center;
-    i {
-        font-size: 30px;
-        background: orange;
-        width: 60px;
-        height: 60px;
-        color: $color-light;
-        border-radius: 50%;
-        text-align: center;
-        margin-top: 48px;
-        margin-bottom: 48px;
-        line-height: 2;
-        margin-right: 50px;
-    }
+      i {
+      font-size: 30px;
+      background: white;
+      width: 70px;
+      height: 70px;
+      color: #f1c40f;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 2;
+      border-color: #f1c40f;
+      border-style: solid;
+      padding-top: 4px;
+      }
+  }
+  .cards-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .cards-text {
+    text-align: center;
+    font-size: 10px;
   }
