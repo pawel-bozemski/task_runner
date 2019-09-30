@@ -145,3 +145,13 @@ section {
     text-align: center;
     font-size: 10px;
   }
+/* portfolio */
+
+.card  img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card-body {
+  text-align: center;
+}
