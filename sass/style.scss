@@ -29,6 +29,7 @@ section {
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
+  padding-top: 0;
 }
 .brand {
   font-family : "Parisienne";
@@ -185,7 +186,7 @@ footer .row {
   margin-left: 0;
   margin-right: 0;
 }
-/* Media */ 
+/* Media */
 
 @media (min-width: 360px) and (max-width: 991px){
   .navigation {
@@ -215,6 +216,13 @@ footer .row {
     }
     .button {
       margin-bottom: 15px;
+    }
+  }
+  footer {
+    flex-direction: column;
+    text-align: center;
+    .col-md-4 {
+      padding-bottom: 15px;
     }
   }
 }
